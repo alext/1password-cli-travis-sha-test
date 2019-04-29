@@ -3,6 +3,8 @@ language: ruby
 matrix:
   include:
     - os: osx
+    - os: osx
+      osx_image: xcode10.2
     - os: linux
 
 script: ./test.sh

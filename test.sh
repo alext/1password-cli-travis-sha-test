@@ -2,7 +2,7 @@
 
 set -eux
 
-wget -O op_cli.zip https://cache.agilebits.com/dist/1P/op/pkg/v0.5.5/op_darwin_amd64_v0.5.5.zip
+wget --no-cache -O op_cli.zip https://cache.agilebits.com/dist/1P/op/pkg/v0.5.5/op_darwin_amd64_v0.5.5.zip
 
 ls -l op_cli.zip
 shasum -a 256 -t op_cli.zip
