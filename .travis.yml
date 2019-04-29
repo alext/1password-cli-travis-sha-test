@@ -1,4 +1,8 @@
 language: ruby
-os: osx
+
+matrix:
+  include:
+    - os: osx
+    - os: linux
 
 script: ./test.sh
